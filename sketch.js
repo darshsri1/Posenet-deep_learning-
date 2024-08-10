@@ -53,9 +53,6 @@ function draw() {
         }
 
         // Draw images on specific body parts
-        if (singlePose.keypoints[0].score > 0.5) { // Example condition for rendering
-            image(specs, singlePose.nose.x - 35, singlePose.nose.y - 50, 80, 80);
-            image(smoke, singlePose.nose.x - 35, singlePose.nose.y + 10, 40, 40);
-        }
+    
     }
 }
